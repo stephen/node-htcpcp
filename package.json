@@ -1,0 +1,30 @@
+{
+  "name": "htcpcp",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Stephen Wan <stephen@stephenwan.net>",
+  "description": "a simple htcpcp implementation (RFC 2324)",
+  "contributors": [ 
+    {
+      "name": "Stephen Wan",
+      "email": "stephen@stephenwan.net"
+    } 
+  ],
+  "scripts": {
+    "test": "echo testing"
+  },
+  "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephencwan/node-htcpcp.git"
+  },
+  "keywords": [
+    "htcpcp",
+    "server",
+    "coffee"
+  ],
+  "dependencies" : {
+    "express"   :  "*"
+  },
+  "license": "MIT"
+}
