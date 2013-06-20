@@ -1,7 +1,6 @@
 node-htcpcp
 ===========
-
-An HTCPCP implementation built on top of node.js and express.js
+Highly scalable coffee pot control server, build with node.js.
 
 License
 -------
