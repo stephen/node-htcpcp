@@ -4,7 +4,7 @@ Highly scalable coffee pot control server, build with node.js.
 
 Usage
 -----
-node-htcpcp can scale to manage multiple coffee pots in a single node instance. Each coffee pot is represented by a ```Pot``` object and passed to the server. See the example below for details.
+node-htcpcp can scale to manage multiple coffee pots in a single node instance. Each coffee pot is represented by a ```Pot``` object. The server creates and manages these coffee pots via the ```.pot()``` method. See the example below for details.
 
 Server
 ------
