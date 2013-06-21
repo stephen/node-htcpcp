@@ -1,7 +1,7 @@
 var htcpcp = require('../lib/main');
 var app = htcpcp.server();
 
-app.pot('mypot', function(potRef) {
+app.pot('testpot', function(potRef) {
 	
 })
 
