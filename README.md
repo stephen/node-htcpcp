@@ -1,6 +1,12 @@
 node-htcpcp
 ===========
-Highly scalable coffee pot control server, build with node.js.
+Highly scalable coffee pot control server, build with node.js. Based off of [http://www.ietf.org/rfc/rfc2324.txt]
+
+Install
+-------
+```
+npm install htcpcp
+```
 
 Usage
 -----
@@ -9,10 +15,10 @@ node-htcpcp can scale to manage multiple coffee pots in a single node instance. 
 Server
 ------
 ```
-var htcpcp = require('../lib/main');
+var htcpcp = require('htcpcp');
 var app = htcpcp.server();
 
-app.pot('mypot', function(potRef) {
+app.pot('testpot', function(potRef) {
 	
 })
 
