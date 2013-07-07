@@ -1,6 +1,6 @@
 node-htcpcp
 ===========
-Highly scalable coffee pot control server, build with node.js. Based off of [http://www.ietf.org/rfc/rfc2324.txt]
+Highly scalable coffee pot control server, build with node.js. Based on [RFC 2324](http://www.ietf.org/rfc/rfc2324.txt)
 
 Install
 -------
