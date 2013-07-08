@@ -1,7 +1,7 @@
 {
   "name": "htcpcp",
   "preferGlobal": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Stephen Wan <stephen@stephenwan.net>",
   "description": "simple htcpcp implementation",
   "contributors": [{
@@ -15,5 +15,6 @@
   },
   "dependencies" : {
     "express" : "*"
-  }
+  },
+  "license": "MIT"
 }
